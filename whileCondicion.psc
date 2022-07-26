@@ -5,12 +5,12 @@ Algoritmo sin_titulo
 	contador2 <- 0
 	suma1 <- 0
 	Repetir
-		Escribir 'Ingrese el primer número:'
+		Escribir 'Ingrese el primer nÃºmero:'
 		Leer n1
-		Escribir 'Ingrese el segundo número:'
+		Escribir 'Ingrese el segundo nÃºmero:'
 		Leer n2
 		Si n1=n2 Entonces
-			Escribir 'Error los números son iguales'
+			Escribir 'Error los nÃºmeros son iguales'
 		FinSi
 	Hasta Que n1<>n2
 	Si n1>n2 Entonces
@@ -21,7 +21,7 @@ Algoritmo sin_titulo
 		maximo <- n2
 	FinSi
 	Mientras numero1<>0 Hacer
-		Escribir 'Ingrese un número:'
+		Escribir 'Ingrese un nÃºmero:'
 		Leer numero1
 		Si numero1>minimo Y numero1<maximo Entonces
 			sumainter <- sumainter+numero1
@@ -35,8 +35,8 @@ Algoritmo sin_titulo
 		FinSi
 	FinMientras
 	dive <- suma1/contador1
-	Escribir 'La suma de los números que estan dentro es:',sumainter
-	Escribir 'El promedio de los números fuera del intervalo es:',dive
-	Escribir 'La cantidad de los números ingresados iguales a los limit es:',contador2
+	Escribir 'La suma de los nÃºmeros que estan dentro es:',sumainter
+	Escribir 'El promedio de los nÃºmeros fuera del intervalo es:',dive
+	Escribir 'La cantidad de los nÃºmeros ingresados iguales a los limit es:',contador2
 	Escribir 'fin del programa'
 FinAlgoritmo
